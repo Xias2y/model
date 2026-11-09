@@ -46,20 +46,23 @@
 4. 原生上游价格同步不会配置渠道参数和路由。Fast 转发与别名路由需要渠道本身已经配置正确。
 5. 按秒价格文件的单位已保留，格式测试没有执行真实视频生成，也没有证明任意新的视频适配器都按秒结算。
 
-## 后续在 New API 一键同步
+## 在 New API 接入公开目录
 
-此仓库为私有仓库。New API 当前元数据抓取器不直接携带 GitHub 私库凭据，不能直接把私有仓库普通网页或未授权 Raw 链接填进去。
+此仓库已于 2026-11-09 按所有者要求设为公开。只包含模型数据、转换工具和测试记录，没有密钥、Cookie 或账户凭据。
 
-推荐后续接法：云主机使用已有授权拉取此仓库，在仅供 New API 容器访问的地址只读提供这些静态 JSON。凭据保存在云主机凭据管理中，不写入仓库或同步 URL。
+- 价格完整地址：`https://raw.githubusercontent.com/Xias2y/model/main/api/newapi/ratio_config.json`。
+- 资料源根地址：`https://raw.githubusercontent.com/Xias2y/model/main`，对应模型管理的 `SYNC_UPSTREAM_BASE` 环境变量；原生同步会自动访问 `/api/i18n/zh/newapi/models.json` 等路径。
+- 若使用接受 base_url 和 endpoint 的 API，base_url 可为 `https://raw.githubusercontent.com`，endpoint 为 `/Xias2y/model/main/api/newapi/ratio_config.json`；endpoint 也支持直接使用完整 HTTPS 地址。
 
-假设静态目录服务的根地址是 `CATALOG_BASE`：
+当前 v1.0.0-rc.49 的上游价格同步前端只列出现有渠道和两个内置预设，没有新增独立价格源的按钮；基础地址也是只读显示，不能照上述两个参数直接新增一行。
 
-- New API 模型资料源环境变量设为 `SYNC_UPSTREAM_BASE=CATALOG_BASE`，模型管理的“同步上游”会访问本仓库的语言路径。该环境变量首次接入可能需要重建应用容器。
-- 系统设置的“上游价格同步”自定义地址指向 `CATALOG_BASE/api/newapi/ratio_config.json`，通过现有预览、选择、保存流程同步价格。
-- 模型未勾选“参与官方同步”时，原生模型资料同步会将其标为 blocked，需要按你的选择启用。价格同步是另一路径。
-- 这两个入口是原生支持的；将资料与价格合并成一个按钮还需要 New API 或配套控制层实现，不假装仓库本身已经提供了这个按钮。
+该版自定义接口选择还有一处状态问题：选择 custom 时把 endpoint 置空，而渲染时空值回退为 /api/pricing，导致输入框无法稳定展开。这是按对应源码得出的结论，没有在本轮修改生产前端。
 
-本次只创建目录和测试，没有修改生产站点的同步源、数据库、分组、渠道、源码或 OpenResty，没有部署常驻目录服务。
+因此公开文件已经可以匿名下载，但要实现 GUI 中稳定选择 Krill 目录，还需添加 Krill 预设或修复并补齐自定义源入口。后端本身已支持完整 HTTPS endpoint。不要为接入价格源修改正常模型调用渠道的 Base URL。
+
+模型资料未勾选“参与官方同步”时，原生资料同步会标为 blocked；价格同步是另一路径。资料与价格目前也是两个同步入口，不是仓库公开后自动合并成一个按钮。
+
+本轮没有修改生产站点的同步源、数据库、分组、渠道、源码或 OpenResty。
 
 ## 更新目录
 
