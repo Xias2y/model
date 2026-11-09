@@ -1,0 +1,60 @@
+{
+  "success": true,
+  "message": "",
+  "data": [
+    {
+      "name": "Claude",
+      "description": "",
+      "icon": "",
+      "status": 1
+    },
+    {
+      "name": "DeepSeek",
+      "description": "",
+      "icon": "",
+      "status": 1
+    },
+    {
+      "name": "Doubao",
+      "description": "",
+      "icon": "",
+      "status": 1
+    },
+    {
+      "name": "GLM",
+      "description": "",
+      "icon": "",
+      "status": 1
+    },
+    {
+      "name": "Google",
+      "description": "",
+      "icon": "",
+      "status": 1
+    },
+    {
+      "name": "Grok",
+      "description": "",
+      "icon": "",
+      "status": 1
+    },
+    {
+      "name": "Kimi",
+      "description": "",
+      "icon": "",
+      "status": 1
+    },
+    {
+      "name": "Kling",
+      "description": "",
+      "icon": "",
+      "status": 1
+    },
+    {
+      "name": "OpenAI",
+      "description": "",
+      "icon": "",
+      "status": 1
+    }
+  ]
+}

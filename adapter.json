@@ -1,0 +1,10 @@
+{
+  "time_window_timezone": "Asia/Shanghai",
+  "time_window_timezone_origin": "Existing New API deployment convention; Krill price endpoint does not explicitly state its timezone",
+  "time_window_timezone_confirmed_by_krill": false,
+  "time_window_boundary": "start inclusive, end exclusive",
+  "time_window_clock_policy_confirmed_by_krill": false,
+  "priority_parameter": "service_tier=priority",
+  "priority_parameter_origin": "Existing authorized Krill request verification in this project",
+  "literal_fast_requires_channel_normalization": true
+}

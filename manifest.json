@@ -1,0 +1,39 @@
+{
+  "source": "https://www.krill-code.com/api/model-pricing",
+  "capture": {
+    "captured_at": "2026-11-09T07:10:59.978Z",
+    "source": "https://www.krill-code.com/api/model-pricing",
+    "status": 200,
+    "model_count": 70
+  },
+  "source_sha256": "920fb31ecc0b80f795aad24b70a2f96d1b76a4b21fd5d0f739e02316203253c7",
+  "model_count": 70,
+  "token_models": 47,
+  "request_models": 6,
+  "duration_models": 17,
+  "fast_models": 7,
+  "ultrafast_models": 2,
+  "long_context_models": 16,
+  "time_window_models": 2,
+  "metadata_source": "Krill only; unavailable descriptions/tags/icons/endpoints remain empty",
+  "user_group_multipliers_included": false,
+  "account_route_multipliers_applied": false,
+  "adaptor": {
+    "time_window_timezone": "Asia/Shanghai",
+    "time_window_timezone_origin": "Existing New API deployment convention; Krill price endpoint does not explicitly state its timezone",
+    "time_window_timezone_confirmed_by_krill": false,
+    "time_window_boundary": "start inclusive, end exclusive",
+    "time_window_clock_policy_confirmed_by_krill": false,
+    "priority_parameter": "service_tier=priority",
+    "priority_parameter_origin": "Existing authorized Krill request verification in this project",
+    "literal_fast_requires_channel_normalization": true
+  },
+  "limits": [
+    "Krill does not explicitly supply a timezone or start-versus-completion time policy.",
+    "The chosen timezone is an explicit deployment adapter setting, not a Krill source field.",
+    "Duration prices require a video adaptor that settles seconds; a generic per-request or task-plugin route is not equivalent.",
+    "Priority forwarding and suffix alias routing are channel configuration; price synchronization does not configure them.",
+    "Ultrafast SKUs are preserved; no unverified service_tier value is invented.",
+    "Native metadata synchronization does not store all Krill limits and modality fields; the raw catalog preserves them."
+  ]
+}

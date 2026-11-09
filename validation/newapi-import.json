@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "image": "calciumion/new-api@sha256:92dbb9b34b2693bf5d4721ab55f83de78b0724e5b3aa780cd485dcbd7c2818fe",
+  "metadata_imported_and_unchanged": 70,
+  "pricing_entries_imported_and_roundtripped": 70,
+  "expressions_validated_by_newapi": 53,
+  "duration_unit_prices_roundtripped": 17,
+  "native_upstream_fetch_response_keys": [
+    "differences",
+    "prices",
+    "test_results"
+  ],
+  "native_upstream_fetch_values_equal": true,
+  "metadata_model_names_exact": true,
+  "production_database_accessed": false,
+  "paid_model_calls": 0,
+  "scope": "Native JSON parsing, metadata import, expression validation, pricing import and readback; no upstream billing settlement test",
+  "remaining_limits": [
+    "Krill does not explicitly supply a timezone or start-versus-completion time policy.",
+    "The chosen timezone is an explicit deployment adapter setting, not a Krill source field.",
+    "Duration prices require a video adaptor that settles seconds; a generic per-request or task-plugin route is not equivalent.",
+    "Priority forwarding and suffix alias routing are channel configuration; price synchronization does not configure them.",
+    "Ultrafast SKUs are preserved; no unverified service_tier value is invented.",
+    "Native metadata synchronization does not store all Krill limits and modality fields; the raw catalog preserves them."
+  ],
+  "checked_at": "2026-11-09T07:28:34.060Z"
+}

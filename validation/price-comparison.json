@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "models": 70,
+  "price_scenarios": 26375,
+  "deepseek_minutes_checked": 1440,
+  "source_preserved": true,
+  "metadata_enrichment_added": false,
+  "scope": "Offline expression-versus-source price comparison, including every minute of DeepSeek windows and exact context thresholds",
+  "source_sha256": "920fb31ecc0b80f795aad24b70a2f96d1b76a4b21fd5d0f739e02316203253c7",
+  "checked_at": "2026-11-09T07:28:34.060Z"
+}

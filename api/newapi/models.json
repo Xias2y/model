@@ -1,0 +1,706 @@
+{
+  "success": true,
+  "message": "",
+  "data": [
+    {
+      "model_name": "claude-fable-5",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-fable-5-1",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-haiku-4-5-20251001",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-haiku-5-5",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-opus-4-6",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-opus-4-7",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-opus-4-8",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-opus-5",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-opus-5-5",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-sonnet-4-6",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-sonnet-5",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "claude-sonnet-5-5",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Claude",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "deepseek-v4.1-flash",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "DeepSeek",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "deepseek-v4.1-flash-1017",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "DeepSeek",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "doubao-seed-2-1-pro",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Doubao",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "doubao-seed-2-1-turbo",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Doubao",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "seedance-2.0",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Doubao",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "seedance-2.0-1080p",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Doubao",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "seedance-2.0-480p",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Doubao",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "seedance-2.0-720p",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Doubao",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "seedance-2.5",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Doubao",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "seedance-2.5-1080p",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Doubao",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "seedance-2.5-480p",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Doubao",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "seedance-2.5-720p",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Doubao",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "GLM-5.3",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "GLM",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "GLM-5.3-Flash",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "GLM",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gemini-3-flash-preview",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Google",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gemini-3.1-flash-lite-preview",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Google",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gemini-3.1-pro-preview",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Google",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gemini-3.8-flash",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Google",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gemini-4-argon",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Google",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "grok-4.5",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Grok",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "grok-4.6",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Grok",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "grok-4.7",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Grok",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "grok-imagine-image",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Grok",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "grok-imagine-image-quality",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Grok",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "grok-imagine-video",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Grok",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "grok-imagine-video-1.5",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Grok",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "kimi-k3",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Kimi",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "kimi-k3.1-pro",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Kimi",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "kling-v3",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Kling",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "kling-v3-1080p",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Kling",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "kling-v3-4k",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Kling",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "kling-v3-720p",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Kling",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "kling-v3-turbo",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Kling",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "kling-v3-turbo-1080p",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Kling",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "kling-v3-turbo-720p",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "Kling",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "codex-auto-review",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-5.6-luna",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-5.6-luna-fast",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-5.6-sol",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-5.6-sol-fast",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-5.6-terra",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-5.6-terra-fast",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-6-astra",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-6-astra-fast",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-6-astra-ultrafast",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-6-sol",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-6-sol-fast",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-6.1-sol",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-6.1-sol-fast",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-6.1-sol-ultrafast",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-6.1-terra",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-6.1-terra-fast",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-image-2",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-image-2-2k",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-image-2-4k",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-image-2.5",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-image-2.6-flare",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    },
+    {
+      "model_name": "gpt-image-2.6-sunburst",
+      "description": "",
+      "tags": "",
+      "icon": "",
+      "endpoints": null,
+      "vendor_name": "OpenAI",
+      "name_rule": 0,
+      "status": 1
+    }
+  ]
+}
