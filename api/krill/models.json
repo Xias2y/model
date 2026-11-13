@@ -50,11 +50,38 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "cdn": "0.9500000000",
-        "直连": "0.9000000000"
+        "直连": "0.9000000000",
+        "cdn": "0.9500000000"
       },
       "created_at": "2026-09-02T16:12:53.696633Z",
       "updated_at": "2026-09-23T07:18:42.039705Z"
+    },
+    {
+      "model_name": "claude-fable-5-2",
+      "provider": "Claude",
+      "model_type": "text",
+      "billing_mode": "token",
+      "input_token_price": "8.0000000000",
+      "cache_creation_token_price": "10.0000000000",
+      "cache_creation_5m_token_price": "10.0000000000",
+      "cache_creation_1h_token_price": "16.0000000000",
+      "cache_read_input_token_price": "0.2000000000",
+      "output_token_price": "40.0000000000",
+      "request_price_usd": "0.0000000000",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "modalities": "text,image",
+      "enabled": true,
+      "is_plan_available": false,
+      "is_balance_available": true,
+      "high_context_rule": null,
+      "time_window_rules": [],
+      "route_multipliers": {
+        "直连": "0.9000000000",
+        "cdn": "0.9500000000"
+      },
+      "created_at": "2026-11-10T15:35:19.126150Z",
+      "updated_at": "2026-11-10T15:35:19.126150Z"
     },
     {
       "model_name": "claude-haiku-4-5-20251001",
@@ -77,8 +104,8 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "cdn": "0.9500000000",
-        "直连": "0.9000000000"
+        "直连": "0.9000000000",
+        "cdn": "0.9500000000"
       },
       "created_at": "2026-03-22T11:00:08.600929Z",
       "updated_at": "2026-06-27T05:17:09.324692Z"
@@ -223,8 +250,8 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "cdn": "0.9500000000",
-        "直连": "0.9000000000"
+        "直连": "0.9000000000",
+        "cdn": "0.9500000000"
       },
       "created_at": "2026-07-25T02:33:45.318998Z",
       "updated_at": "2026-07-25T02:34:17.633185Z"
@@ -250,8 +277,8 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "cdn": "0.9500000000",
-        "直连": "0.9000000000"
+        "直连": "0.9000000000",
+        "cdn": "0.9500000000"
       },
       "created_at": "2026-09-23T07:15:53.973243Z",
       "updated_at": "2026-09-23T07:21:45.375512Z"
@@ -277,8 +304,8 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "直连": "0.9000000000",
-        "cdn": "0.9500000000"
+        "cdn": "0.9500000000",
+        "直连": "0.9000000000"
       },
       "created_at": "2026-03-22T10:59:31.128733Z",
       "updated_at": "2026-06-27T05:18:45.435297Z"
@@ -304,8 +331,8 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "直连": "0.9000000000",
-        "cdn": "0.9500000000"
+        "cdn": "0.9500000000",
+        "直连": "0.9000000000"
       },
       "created_at": "2026-07-01T02:06:41.866968Z",
       "updated_at": "2026-07-01T02:06:41.866968Z"
@@ -331,8 +358,8 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "cdn": "0.9500000000",
-        "直连": "0.9000000000"
+        "直连": "0.9000000000",
+        "cdn": "0.9500000000"
       },
       "created_at": "2026-10-01T03:15:16.822228Z",
       "updated_at": "2026-10-01T03:15:16.822228Z"
@@ -736,101 +763,6 @@
       "updated_at": "2026-10-17T11:02:17Z"
     },
     {
-      "model_name": "gemini-3-flash-preview",
-      "provider": "Google",
-      "model_type": "text",
-      "billing_mode": "token",
-      "input_token_price": "0.5000000000",
-      "cache_creation_token_price": "0.0000000000",
-      "cache_creation_5m_token_price": null,
-      "cache_creation_1h_token_price": null,
-      "cache_read_input_token_price": "0.0500000000",
-      "output_token_price": "3.0000000000",
-      "request_price_usd": "0.0000000000",
-      "context_window": 1048576,
-      "max_output_tokens": 65536,
-      "modalities": "text,image,video,audio",
-      "enabled": true,
-      "is_plan_available": false,
-      "is_balance_available": true,
-      "high_context_rule": null,
-      "time_window_rules": [],
-      "route_multipliers": {
-        "cdn": "0.5500000000",
-        "直连": "0.5000000000",
-        "均衡": "0.6000000000"
-      },
-      "created_at": "2026-07-22T13:28:02.057286Z",
-      "updated_at": "2026-10-01T03:38:43.598917Z"
-    },
-    {
-      "model_name": "gemini-3.1-flash-lite-preview",
-      "provider": "Google",
-      "model_type": "text",
-      "billing_mode": "token",
-      "input_token_price": "0.2500000000",
-      "cache_creation_token_price": "0.0000000000",
-      "cache_creation_5m_token_price": null,
-      "cache_creation_1h_token_price": null,
-      "cache_read_input_token_price": "0.0250000000",
-      "output_token_price": "1.5000000000",
-      "request_price_usd": "0.0000000000",
-      "context_window": 1048576,
-      "max_output_tokens": 65536,
-      "modalities": "text,image,video,audio",
-      "enabled": true,
-      "is_plan_available": false,
-      "is_balance_available": true,
-      "high_context_rule": null,
-      "time_window_rules": [],
-      "route_multipliers": {
-        "cdn": "0.5500000000",
-        "均衡": "0.6000000000",
-        "直连": "0.5000000000"
-      },
-      "created_at": "2026-04-17T06:54:18.603096Z",
-      "updated_at": "2026-10-01T03:43:31.735094Z"
-    },
-    {
-      "model_name": "gemini-3.1-pro-preview",
-      "provider": "Google",
-      "model_type": "text",
-      "billing_mode": "token",
-      "input_token_price": "2.0000000000",
-      "cache_creation_token_price": "0.0000000000",
-      "cache_creation_5m_token_price": null,
-      "cache_creation_1h_token_price": null,
-      "cache_read_input_token_price": "0.2000000000",
-      "output_token_price": "12.0000000000",
-      "request_price_usd": "0.0000000000",
-      "context_window": 1048576,
-      "max_output_tokens": 65536,
-      "modalities": "text,image,video,audio",
-      "enabled": true,
-      "is_plan_available": false,
-      "is_balance_available": true,
-      "high_context_rule": {
-        "input_tokens_threshold": 200000,
-        "input_token_price": "4.0000000000",
-        "cache_creation_token_price": "0.0000000000",
-        "cache_creation_5m_token_price": null,
-        "cache_creation_1h_token_price": null,
-        "cache_read_input_token_price": "0.4000000000",
-        "output_token_price": "18.0000000000",
-        "enabled": true,
-        "created_at": "2026-10-01T03:45:20.101475Z",
-        "updated_at": "2026-10-01T03:45:20.101475Z"
-      },
-      "time_window_rules": [],
-      "route_multipliers": {
-        "cdn": "0.5500000000",
-        "直连": "0.5000000000",
-        "均衡": "0.6000000000"
-      },
-      "created_at": "2026-03-20T09:18:53.943439Z",
-      "updated_at": "2026-10-01T03:45:20.099505Z"
-    },
-    {
       "model_name": "gemini-3.8-flash",
       "provider": "Google",
       "model_type": "text",
@@ -851,9 +783,9 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "cdn": "0.5500000000",
         "均衡": "0.6000000000",
-        "直连": "0.5000000000"
+        "直连": "0.5000000000",
+        "cdn": "0.5500000000"
       },
       "created_at": "2026-09-03T14:30:17.147945Z",
       "updated_at": "2026-10-01T03:43:31.076753Z"
@@ -879,9 +811,9 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "均衡": "0.6000000000",
         "直连": "0.5000000000",
-        "cdn": "0.5500000000"
+        "cdn": "0.5500000000",
+        "均衡": "0.6000000000"
       },
       "created_at": "2026-10-26T17:40:56.427772Z",
       "updated_at": "2026-10-26T17:40:56.427772Z"
@@ -907,9 +839,9 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "均衡": "0.1000000000",
         "直连": "0.0010000000",
-        "cdn": "0.0010000000"
+        "cdn": "0.0010000000",
+        "均衡": "0.1000000000"
       },
       "created_at": "2026-07-09T07:02:08.950728Z",
       "updated_at": "2026-07-17T17:58:18.475199Z"
@@ -935,9 +867,9 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "均衡": "0.1000000000",
+        "直连": "0.0010000000",
         "cdn": "0.0010000000",
-        "直连": "0.0010000000"
+        "均衡": "0.1000000000"
       },
       "created_at": "2026-08-13T01:44:39.628909Z",
       "updated_at": "2026-08-13T01:52:52.506815Z"
@@ -1314,8 +1246,8 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "均衡": "0.1800000000",
         "cdn": "0.1800000000",
+        "均衡": "0.1800000000",
         "直连": "0.1800000000"
       },
       "created_at": "2026-06-11T07:19:15.964517Z",
@@ -1392,9 +1324,9 @@
       },
       "time_window_rules": [],
       "route_multipliers": {
+        "均衡": "0.2000000000",
         "直连": "0.1800000000",
-        "cdn": "0.1900000000",
-        "均衡": "0.2000000000"
+        "cdn": "0.1900000000"
       },
       "created_at": "2026-07-08T15:08:49.165060Z",
       "updated_at": "2026-10-22T12:36:53.124727Z"
@@ -1470,9 +1402,9 @@
       },
       "time_window_rules": [],
       "route_multipliers": {
-        "cdn": "0.1900000000",
+        "直连": "0.1800000000",
         "均衡": "0.2000000000",
-        "直连": "0.1800000000"
+        "cdn": "0.1900000000"
       },
       "created_at": "2026-07-08T15:08:49.165060Z",
       "updated_at": "2026-10-22T12:36:53.124727Z"
@@ -1510,8 +1442,8 @@
       "time_window_rules": [],
       "route_multipliers": {
         "cdn": "0.1900000000",
-        "直连": "0.1800000000",
-        "均衡": "0.2000000000"
+        "均衡": "0.2000000000",
+        "直连": "0.1800000000"
       },
       "created_at": "2026-07-08T15:01:46.214679Z",
       "updated_at": "2026-10-23T08:56:45.038165Z"
@@ -1549,8 +1481,8 @@
       "time_window_rules": [],
       "route_multipliers": {
         "cdn": "0.1900000000",
-        "均衡": "0.2000000000",
-        "直连": "0.1800000000"
+        "直连": "0.1800000000",
+        "均衡": "0.2000000000"
       },
       "created_at": "2026-07-08T15:08:49.165060Z",
       "updated_at": "2026-10-22T12:36:53.124727Z"
@@ -1577,8 +1509,8 @@
       "time_window_rules": [],
       "route_multipliers": {
         "cdn": "0.1900000000",
-        "直连": "0.1800000000",
-        "均衡": "0.2000000000"
+        "均衡": "0.2000000000",
+        "直连": "0.1800000000"
       },
       "created_at": "2026-09-03T21:11:00.032530Z",
       "updated_at": "2026-10-23T00:57:52.074870Z"
@@ -1604,8 +1536,8 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "cdn": "0.1900000000",
         "均衡": "0.2000000000",
+        "cdn": "0.1900000000",
         "直连": "0.1800000000"
       },
       "created_at": "2026-09-04T09:50:49.087199Z",
@@ -1632,9 +1564,9 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "均衡": "0.2000000000",
+        "直连": "0.1800000000",
         "cdn": "0.1900000000",
-        "直连": "0.1800000000"
+        "均衡": "0.2000000000"
       },
       "created_at": "2026-09-30T06:17:35.612998Z",
       "updated_at": "2026-10-22T12:36:53.124727Z"
@@ -1671,9 +1603,9 @@
       },
       "time_window_rules": [],
       "route_multipliers": {
-        "直连": "0.1800000000",
+        "cdn": "0.1900000000",
         "均衡": "0.2000000000",
-        "cdn": "0.1900000000"
+        "直连": "0.1800000000"
       },
       "created_at": "2026-09-22T18:12:23.471720Z",
       "updated_at": "2026-10-23T00:57:51.902531Z"
@@ -1749,9 +1681,9 @@
       },
       "time_window_rules": [],
       "route_multipliers": {
+        "均衡": "0.2000000000",
         "cdn": "0.1900000000",
-        "直连": "0.1800000000",
-        "均衡": "0.2000000000"
+        "直连": "0.1800000000"
       },
       "created_at": "2026-09-29T17:29:57.974538Z",
       "updated_at": "2026-10-23T00:57:51.989359Z"
@@ -1788,9 +1720,9 @@
       },
       "time_window_rules": [],
       "route_multipliers": {
+        "均衡": "0.2000000000",
         "直连": "0.1800000000",
-        "cdn": "0.1900000000",
-        "均衡": "0.2000000000"
+        "cdn": "0.1900000000"
       },
       "created_at": "2026-09-29T17:29:57.974538Z",
       "updated_at": "2026-10-22T12:36:53.124727Z"
@@ -1866,8 +1798,8 @@
       },
       "time_window_rules": [],
       "route_multipliers": {
-        "均衡": "0.2000000000",
         "cdn": "0.1900000000",
+        "均衡": "0.2000000000",
         "直连": "0.1800000000"
       },
       "created_at": "2026-10-26T23:19:17.769354Z",
@@ -1906,8 +1838,8 @@
       "time_window_rules": [],
       "route_multipliers": {
         "cdn": "0.1900000000",
-        "直连": "0.1800000000",
-        "均衡": "0.2000000000"
+        "均衡": "0.2000000000",
+        "直连": "0.1800000000"
       },
       "created_at": "2026-10-26T23:27:40.225344Z",
       "updated_at": "2026-10-27T01:35:00.889396Z"
@@ -2029,9 +1961,9 @@
       "high_context_rule": null,
       "time_window_rules": [],
       "route_multipliers": {
-        "cdn": "2.5000000000",
+        "直连": "2.5000000000",
         "均衡": "2.0000000000",
-        "直连": "2.5000000000"
+        "cdn": "2.5000000000"
       },
       "created_at": "2026-11-05T05:44:04.330100Z",
       "updated_at": "2026-11-05T06:41:17.344541Z"
@@ -2058,8 +1990,8 @@
       "time_window_rules": [],
       "route_multipliers": {
         "均衡": "2.0000000000",
-        "cdn": "2.5000000000",
-        "直连": "2.5000000000"
+        "直连": "2.5000000000",
+        "cdn": "2.5000000000"
       },
       "created_at": "2026-11-05T05:44:04.330100Z",
       "updated_at": "2026-11-05T06:41:07.043234Z"

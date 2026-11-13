@@ -1,19 +1,19 @@
 {
   "source": "https://www.krill-code.com/api/model-pricing",
   "capture": {
-    "captured_at": "2026-11-09T07:10:59.978Z",
+    "captured_at": "2026-11-13T00:15:56.774268Z",
     "source": "https://www.krill-code.com/api/model-pricing",
     "status": 200,
-    "model_count": 70
+    "model_count": 68
   },
-  "source_sha256": "920fb31ecc0b80f795aad24b70a2f96d1b76a4b21fd5d0f739e02316203253c7",
-  "model_count": 70,
-  "token_models": 47,
+  "source_sha256": "c258f5dd143d5592e75575fcb359d8eb576bbd94597ec42b0910ee269141fcb6",
+  "model_count": 68,
+  "token_models": 45,
   "request_models": 6,
   "duration_models": 17,
   "fast_models": 7,
   "ultrafast_models": 2,
-  "long_context_models": 16,
+  "long_context_models": 15,
   "time_window_models": 2,
   "metadata_source": "Krill only; unavailable descriptions/tags/icons/endpoints remain empty",
   "user_group_multipliers_included": false,

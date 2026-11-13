@@ -1,6 +1,7 @@
 {
   "claude-fable-5": "USD / 1M tokens",
   "claude-fable-5-1": "USD / 1M tokens",
+  "claude-fable-5-2": "USD / 1M tokens",
   "claude-haiku-4-5-20251001": "USD / 1M tokens",
   "claude-haiku-5-5": "USD / 1M tokens",
   "claude-opus-4-6": "USD / 1M tokens",
@@ -25,9 +26,6 @@
   "seedance-2.5-720p": "USD / second; requires a duration-settling video adaptor",
   "GLM-5.3": "USD / 1M tokens",
   "GLM-5.3-Flash": "USD / 1M tokens",
-  "gemini-3-flash-preview": "USD / 1M tokens",
-  "gemini-3.1-flash-lite-preview": "USD / 1M tokens",
-  "gemini-3.1-pro-preview": "USD / 1M tokens",
   "gemini-3.8-flash": "USD / 1M tokens",
   "gemini-4-argon": "USD / 1M tokens",
   "grok-4.5": "USD / 1M tokens",
